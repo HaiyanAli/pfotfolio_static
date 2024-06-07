@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.crous {
+    background-color: #2E2F32;
+    max-height: 700px;
+    display: flex;
+}
+
+
+
+.crous_con {
+    background-color: #2E2F32;
+    width: 50%;
+    /* text-align: center; */
+    padding: 6% 0 7% 7%
+}
+
+.crous_con h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    letter-spacing: 18px;
+    margin-left: 8px;
+
+}
+
+.crous_con h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 8em;
+    font-weight: 900;
+
+}
+
+.crous_img {
+    width: 50%;
+    text-align: center;
+}
+
+.crous_img img {
+    width: 100%;
+    max-width: 700px;
+}
+
+#news_lines {
+    margin-top: 20px;
+    /* background-color: red; */
+    height: 10px;
+    width: 70%;
+    padding: 10px;
+    color: #7f8083;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-family: 'Abel', sans-serif;
+}
+
+#crous_contact_btn {
+    background-color: #64E099;
+    border: none;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    margin: 10px;
+    margin-top: 23px;
+    padding: 5px 8px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+#crous_contact_btn:hover {
+    background-color: #6bffab;
+    box-shadow: 0px 0px 10px 5px #64E099
+}
+
+
+.my_heading_1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 25px 50px;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.content{
+    background-color: #25262A;
+}
+.Certifications_div{
+    padding: 10px 50px;
+    display: flex;  
+    justify-content: center;
+    overflow-x: auto;
+}
+.Certifications_div .card1 {
+    width: 250px;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: #bfbfbf;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    background-color: #2E2F32;
+    border-radius: 7px;
+    line-height: 1.5;
+    margin: 15px;
+    box-shadow: 0px 0px 6px 4px rgba(27, 27, 27, 0.25);
+}
+
+
+.Certifications_div::-webkit-scrollbar{
+    width: 0;
+}
+.Certifications_div::-webkit-scrollbar-track {
+    background: none;
+}
+.Certifications_div::-webkit-scrollbar-thumb {
+    background: none;
+}
+.Certifications_div::-webkit-scrollbar-thumb:hover {
+    background: none;
+}
+.Certifications_div .card1 img{
+    width: 100%;
+}
+.Certifications_div .card1 h2{
+    margin-top: 10px;
+    font-size: 23px;
+    height: 78px;
+}
+.Certifications_div .card1 p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+.Certifications_div .card2mod{
+    width: 200px;
+    /* min-height: 250px; */
+}
+
+
+
+
+@media screen and (max-width: 1450px){
+    .Certifications_div{
+        justify-content: start;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+    .Certifications_div .card1{
+        min-width: 150px;
+        padding: 10px;
+    }
+    .Certifications_div .card1 h2{
+        margin-top: 5px;
+        font-size: 20px;
+        height: 68px;
+    }
+    .Certifications_div .card1 p{
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 970px) {
+    .crous_img {
+        width: 120%;
+    }
+    .Certifications_div .card1{
+        min-width: 200px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    
+    .crous_img {
+        width: 120%;
+    }
+    .crous_con{
+        padding-left: 2%;
+    }
+    .crous_con h2{
+        font-size: 6rem;
+    }
+    .my_heading_1{
+        padding:  15px;
+        font-size: 30px;
+    }
+    
+    #news_lines{
+        height: 120px;
+        width: 75%;
+    }
+
+    .Certifications_div{
+        max-height: 350px;
+        padding: 15px;
+    }
+
+    .Certifications_div .card1{
+        min-width: 150px;
+        padding: 10px;
+    }
+    .Certifications_div .card1 h2{
+        margin-top: 5px;
+        font-size: 15px;
+        height: 58px;
+    }
+    .Certifications_div .card1 p{
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 700px){
+    .crous_img{
+        display: none;
+    }
+    .crous_con{
+        width: 100%;
+        background-image: url("/static/images/main.jpg");
+        width: 100%;
+    }
+    #news_lines{
+        height: 75px;
+        width: 95%;
+    }
+    .crous_con h1{
+        letter-spacing: 13px;
+    }
+    .crous_con h2 {
+        font-size: 5rem;
+    }
+
+    
+}

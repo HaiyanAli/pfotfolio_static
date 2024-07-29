@@ -1,3 +1,12 @@
+.my_name_info {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 40px 10%;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 .project_div {
     background-color: aqua;
     min-height: 170px;
@@ -54,4 +63,22 @@
 .project_div .con p{
     font-size: 12px;
 }
+}
+
+
+
+@media screen and (max-width: 890px) {
+    .per_info p{
+        min-width: 95vw;
+        line-height: 1.4;
+        font-size: 16px;
+    }
+    .my_name_info{
+        padding: 35px 2%;
+        font-size: 30px;
+    }
+    .per_info p span{
+        font-size: 20px;
+        /* font-weight: 500; */
+    }
 }

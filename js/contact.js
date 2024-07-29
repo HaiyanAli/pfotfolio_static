@@ -26,7 +26,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
                 console.log('Success:', result);
                 document.getElementById('email').value = '';
                 if (result['msg'] == true){
-                    window.location.href="/"
+                        alert("Form submit successfully!");
+                        window.location.href="/";
                 }
                 else{
                     alert(result['msg'])

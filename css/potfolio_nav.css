@@ -86,7 +86,7 @@ body{
     height: 26px;
     display: flex;
     cursor: pointer;
-    margin-right: 25px;
+    margin-right: 15px;
     transition: all ease 0.5s;
 }
 #side_bar_social button i{
